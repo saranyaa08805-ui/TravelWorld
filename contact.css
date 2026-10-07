@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #064663;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 50px;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Contact */
+
+.contact {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 80px;
+
+    padding: 60px;
+}
+
+/* Contact Info */
+
+.contact-info {
+    width: 40%;
+}
+
+.contact-info h1 {
+    font-size: 40px;
+
+    color:brown;
+
+    margin-bottom: 30px;
+    text-shadow: 2px 2px cornsilk;
+}
+
+.contact-info h3 {
+    margin-top: 20px;
+
+    color:blue;
+    font-size: 20px;
+}
+
+.contact-info p {
+    margin-top: 8px;
+
+    font-size: 20px;
+    color: chartreuse;
+}
+
+
+/* Contact Form */
+
+.contact-form {
+    width: 40%;
+
+    background-color: #f5f5f5;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px gray;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+
+    color:blueviolet;
+}
+
+form input,
+form textarea {
+    width: 100%;
+
+    padding: 12px;
+
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 120px;
+}
+
+form button {
+    background-color: #ff7b00;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}

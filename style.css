@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #064663;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 50px;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    color: #ffd166;
+}
+
+/* Hero */
+
+.hero {
+    height: 500px;
+
+    background-image: url("images/homepg.avif");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.hero-content {
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 55px;
+    margin-bottom: 15px;
+    color:blue;
+}
+
+.hero-content p {
+    font-size: 25px;
+    margin-bottom: 30px;
+    color:rgb(219, 5, 5);
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #ff7b00;
+    color: white;
+
+    padding: 12px 25px;
+
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #6d0fd9;
+}
+
+/* Welcome */
+
+.welcome {
+    text-align: center;
+    padding: 60px;
+    
+}
+
+.welcome h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: chartreuse;
+}
+
+.welcome p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #ff7b00;
+}
+
+/* Footer */
+
+footer {
+    background-color: #064663;
+    color: white;
+
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #064663;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 50px;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Packages */
+
+.packages {
+    padding: 60px;
+    text-align: center;
+}
+
+.packages h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color:brown;
+    text-shadow: 2px 2px cornflowerblue;
+}
+
+.package-container {
+    
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.package-card {
+    width: 280px;
+
+    padding: 30px;
+
+    background-color: #f5f5f5;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px gray;
+    background-color:deepskyblue;
+
+}
+
+.package-card h2 {
+    color: #064663;
+    margin-bottom: 20px;
+}
+
+.package-card h3 {
+    font-size: 30px;
+    color: #ff7b00;
+    margin-bottom: 20px;
+}
+
+.package-card p {
+    margin: 12px;
+}
+
+button {
+    background-color: #ff7b00;
+    color: white;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    border-radius: 5px;
+
+    margin-top: 15px;
+}
+button:hover{
+    background-color: crimson;
+}
